@@ -1,0 +1,10 @@
+
+.app-nav{
+    grid-area: 1/2;
+    display: flex;
+    justify-content: flex-end;
+}
+.app-nav>* {
+    margin-left: var(--specing-s);
+    
+}

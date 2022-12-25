@@ -8,6 +8,16 @@
 @import 'base/layout.css';
 @import 'base/forms.css';
 
+/* Page Consost */
+@import 'page/app-nav.css';
+@import 'page/header.css';
+/* @import 'page/footer.css'; */
+
+
+
 /* Components */
+@import 'page/about.css';
+@import 'page/home-page.css';
 @import 'cmps/app-header.css';
 @import 'cmps/user-msg.css';
+@import 'cmps/book-list.css';

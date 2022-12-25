@@ -1,0 +1,4 @@
+.app-header{
+    display: grid;
+    grid-template-columns: 1.5em 1fr 1.5em;
+}

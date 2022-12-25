@@ -10,5 +10,16 @@
   --gray1: rgb(240, 240, 240);
   --gray2: rgb(155, 155, 155);
   --gray3: rgb(44, 44, 44);
+  
+  /* bp */
+
+  --specing-s: 0.5em;
+  --specing-m: 1em;
+  --specing-l: 1.5em;
+  --specing-xl: 2em;
+
+   --s: 600px;
+   --m: 740px;
+   --l: 980px;
 
 } 
