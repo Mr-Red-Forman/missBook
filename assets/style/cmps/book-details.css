@@ -1,0 +1,58 @@
+.book-details{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 2em;
+    align-items: center;
+    justify-content: center;
+    gap:var(--spaces-s)
+}
+
+.book-details .title{
+    grid-area: 1/1/2/3;
+    align-self: center;
+    justify-self: center;
+    font-size: 2em;
+}
+
+.book-details .authors{
+    grid-area: 2/3/3/4;
+}
+.book-details .catagorys{
+    grid-area: 2/-2/3/-1;
+}
+.book-details .publichedDay{
+
+    grid-area:  4/3/5/4;
+}
+.book-details .publichedDayState{
+    grid-area: 5/3/6/4;
+}
+.book-details .pages{
+    grid-area: 3/-2/4/-1;
+}
+.book-details .Langueges{
+    grid-area:3/3/4/4;
+}
+.book-details .Langueges span{
+    text-transform: uppercase;
+
+}
+
+.book-details .bookImg{
+    padding:0  var(--specing-m);
+    grid-area: 2/1/6/3;
+}
+.book-details .descripation{
+    grid-area: 7/1/8/-1;
+}
+.book-details .price{
+    grid-area: 4/-2/6/-1;
+}
+.book-details .backFromDetails{
+    display: flex;
+    max-height: 2em;
+    justify-content: center;
+    align-items: center;
+    /* height: var(--specing-s); */
+    grid-area: 1/-2/2/-1;
+}

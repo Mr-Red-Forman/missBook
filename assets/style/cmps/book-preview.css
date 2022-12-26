@@ -1,0 +1,55 @@
+.bookPreview>* :not(img){
+    padding: 0 var(--specing-l);
+}
+.bookPreview h1{
+    text-align: center;
+    font-size: var(--specing-l);
+    height: calc(2em);
+}
+.bookPreview h2{
+    text-align: center;
+    font-size: var(--specing-m);
+    white-space: nowrap;
+}
+
+.bookAuthorAndDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookPreview p{
+    height: 75px;
+    overflow-y: hidden;
+    /* display: inline-block; */
+    /* width: 80px; */
+    /* white-space: break-spaces; */
+    /* text-overflow: ellipsis; */
+    padding: 0 var(--specing-s);
+
+}
+
+.bookPreview .price{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+.price img{
+    grid-area: 1/-3/2/-1;
+    padding-right: var(--specing-m);    
+}
+
+.bookPreview .price h3{
+    grid-area: 1/1/2/2;
+}
+
+
+
+
+
+

@@ -1,4 +1,7 @@
 .book-list{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* height:  300px; */
+    gap: var(--specing-s);
+   
 }
